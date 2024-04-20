@@ -1,0 +1,323 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    nav, ul {list-style: none;}
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #F5F5F5;
+    color: #333;
+
+}
+
+.all {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  
+}
+
+/* Estilos para o menu */
+.menu {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+    @media (max-width: 700px) {
+    .menu {
+        flex-direction: column;}
+
+}
+
+.menu__title {
+    font-size: 30px;
+    margin-left: 20px;
+    align-items: center;
+    
+}
+
+.menu__list {
+    font-size: 15px;
+    display: flex;
+    list-style-type: none;
+    align-items: center;  
+   
+}
+
+
+.menu__list__item {
+    margin-right: 20px;
+}
+
+.menu__list__item a {
+    color: #faf8f8;
+    text-decoration: none;
+}
+
+/* Estilos para o título */
+.title {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.title__profile {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.title__bio {
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-top: 10%;
+}
+
+.title__subsection {
+    font-size: 18px;
+ 
+}
+
+.title__network {
+    display: flex;
+    justify-content: center;
+   }
+
+.title__network__item {
+    margin-right: 10px;
+    margin-top: 10%;
+    gap: 5px;
+}
+
+.title__network__item a {
+    color: #000;
+    text-decoration: none;
+}
+
+/* Estilos para a seção "Sobre mim" */
+.about {
+    padding: 20px ;
+}
+
+.about__title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.about__paragraph {
+    margin-bottom: 20px;
+    margin-left: 2%;
+    margin-right: 2%;
+    
+}
+
+/* Estilos para a seção "Skills" */
+.skills {
+    padding: 20px 0;
+    
+}
+
+.skills__title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.skills__line {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills__box {
+    flex-basis: calc(33.33% - 20px);
+    margin-right: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.skills__img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.skills__name {
+    font-size: 18px;
+}
+
+/* Estilos para a seção "Hobbies" */
+.hobbies {
+    padding: 20px 0;
+}
+
+.hobbies__title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.hobbies__line {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hobbies__box {
+    flex-basis: calc(33.33% - 20px);
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.hobbies__img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.hobbies__name {
+    font-size: 18px;
+}
+
+/* Estilos para a seção "Formação acadêmica" */
+.academic {
+    padding: 20px 0;
+}
+
+.academic__title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.academic__courses {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.academic__courses__box {
+    flex-basis: calc(33.33% - 20px);
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.academic__courses__item__title {
+    font-size: 18px;
+}
+
+.academic__courses__item__subtitle {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Estilos para a seção "Experiência Profissional" */
+.experience {
+    padding: 20px 0;
+}
+
+.experience__section__title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.experiencie__box {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.experience__img {
+    width: 150px;
+    margin-right: 20px;
+}
+
+.experience__title {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.experience__text {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.experience__repo,
+.experience__demo {
+    margin-right: 10px;
+}
+
+.experiencia__botao--repo,
+.experiencia__botao--demo {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.experiencia__botao--repo:hover,
+.experiencia__botao--demo:hover {
+    background-color: #555;
+}
+
+/* Estilos para a seção "Contato" */
+.formcontato {
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+}
+
+.formcontato__img {
+    width: 200px;
+    margin-right: 20px;
+}
+
+.formcontato__text {
+    flex-grow: 1;
+}
+
+.formcontato__title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.formcontato__subtext {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.formcontato__form {
+    margin-bottom: 20px;
+}
+
+.formcontato__input,
+.formcontato__textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.formcontato__botao {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.formcontato__botao:hover {
+    background-color: #555;
+}
+
+/* Estilos para o rodapé */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
